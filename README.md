@@ -119,6 +119,52 @@ cd Session_4_Debugging
 python buggy_max.py
 ```
 
+## 🧪 Testing
+
+### Running All Tests
+To run all unit tests across all sessions:
+```bash
+python run_tests.py
+```
+
+### Running Individual Session Tests
+
+#### Session 1 Tests
+```bash
+cd Session_1_CoreUsage
+python -m unittest test_example.py -v
+```
+
+#### Session 2 Tests
+```bash
+cd Session_2_Intermediate
+python -m unittest test_palindrome.py -v
+```
+
+#### Session 3 Tests
+```bash
+cd Session_3_Advanced
+python -m unittest test_utils.py -v
+python -m unittest test_app.py -v
+```
+
+#### Session 4 Tests
+```bash
+cd Session_4_Debugging
+python -m unittest test_buggy_max.py -v
+```
+
+### Test Coverage
+
+Each session includes comprehensive unit tests:
+
+- **Session 1**: Tests for discount calculation with edge cases
+- **Session 2**: Tests for palindrome detection with various input types
+- **Session 3**: Tests for BMI calculation and Flask API endpoints
+- **Session 4**: Tests designed to identify bugs in the max function
+
+**Note**: Session 4 tests are designed to fail intentionally to help identify bugs for debugging practice.
+
 ## 🎯 Learning Path
 
 1. **Start with Session 1** to understand basic AI prompting
