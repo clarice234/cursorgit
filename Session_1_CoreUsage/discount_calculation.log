@@ -1,0 +1,541 @@
+2025-07-18 12:58:48,683 - INFO - Starting discount calculation - Price: 100, Discount: 12.5%
+2025-07-18 12:58:48,684 - INFO - Input validation passed - Price: 100, Discount: 12.5%
+2025-07-18 12:58:48,684 - INFO - Calculated discount amount: 12.5
+2025-07-18 12:58:48,684 - INFO - Calculated final price: 87.5
+2025-07-18 12:58:48,684 - INFO - Discount calculation completed - Original: 100, Final: 87.5
+2025-07-18 12:58:48,685 - INFO - Starting discount calculation - Price: 100, Discount: 100%
+2025-07-18 12:58:48,685 - INFO - Input validation passed - Price: 100, Discount: 100%
+2025-07-18 12:58:48,686 - INFO - Calculated discount amount: 100.0
+2025-07-18 12:58:48,686 - INFO - Calculated final price: 0.0
+2025-07-18 12:58:48,686 - INFO - Discount calculation completed - Original: 100, Final: 0.0
+2025-07-18 12:58:48,686 - INFO - Starting discount calculation - Price: 10000, Discount: 15%
+2025-07-18 12:58:48,687 - INFO - Input validation passed - Price: 10000, Discount: 15%
+2025-07-18 12:58:48,687 - INFO - Calculated discount amount: 1500.0
+2025-07-18 12:58:48,687 - INFO - Calculated final price: 8500.0
+2025-07-18 12:58:48,687 - INFO - Discount calculation completed - Original: 10000, Final: 8500.0
+2025-07-18 12:58:48,688 - INFO - Starting discount calculation - Price: 100, Discount: -10%
+2025-07-18 12:58:48,688 - WARNING - Invalid discount percentage: -10%. Discount cannot be negative.
+2025-07-18 12:58:48,688 - INFO - Starting discount calculation - Price: -50, Discount: 10%
+2025-07-18 12:58:48,689 - WARNING - Invalid price: -50. Price must be positive.
+2025-07-18 12:58:48,689 - INFO - Starting discount calculation - Price: 100, Discount: 20%
+2025-07-18 12:58:48,689 - INFO - Input validation passed - Price: 100, Discount: 20%
+2025-07-18 12:58:48,690 - INFO - Calculated discount amount: 20.0
+2025-07-18 12:58:48,690 - INFO - Calculated final price: 80.0
+2025-07-18 12:58:48,690 - INFO - Discount calculation completed - Original: 100, Final: 80.0
+2025-07-18 12:58:48,691 - INFO - Starting discount calculation - Price: 100, Discount: 0%
+2025-07-18 12:58:48,691 - INFO - Input validation passed - Price: 100, Discount: 0%
+2025-07-18 12:58:48,691 - INFO - Calculated discount amount: 0.0
+2025-07-18 12:58:48,692 - INFO - Calculated final price: 100.0
+2025-07-18 12:58:48,692 - INFO - Discount calculation completed - Original: 100, Final: 100.0
+2025-07-18 12:58:48,692 - INFO - Starting discount calculation - Price: 0, Discount: 20%
+2025-07-18 12:58:48,693 - WARNING - Invalid price: 0. Price must be positive.
+2025-07-18 12:58:48,735 - INFO - Starting palindrome check for: 'Racecar'
+2025-07-18 12:58:48,769 - INFO - Original string length: 7
+2025-07-18 12:58:48,806 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:58:48,808 - INFO - Reversed string: 'racecar'
+2025-07-18 12:58:48,808 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,808 - INFO - 'Racecar' is a palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: 'LEVEL'
+2025-07-18 12:58:48,808 - INFO - Original string length: 5
+2025-07-18 12:58:48,808 - INFO - Cleaned string: 'level' (length: 5)
+2025-07-18 12:58:48,808 - INFO - Reversed string: 'level'
+2025-07-18 12:58:48,808 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,808 - INFO - 'LEVEL' is a palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: 'DeEd'
+2025-07-18 12:58:48,808 - INFO - Original string length: 4
+2025-07-18 12:58:48,808 - INFO - Cleaned string: 'deed' (length: 4)
+2025-07-18 12:58:48,808 - INFO - Reversed string: 'deed'
+2025-07-18 12:58:48,808 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,808 - INFO - 'DeEd' is a palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: ''
+2025-07-18 12:58:48,808 - INFO - Empty string detected - considered palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: 'A1b2c3c2b1a'
+2025-07-18 12:58:48,808 - INFO - Original string length: 11
+2025-07-18 12:58:48,808 - INFO - Cleaned string: 'a1b2c3c2b1a' (length: 11)
+2025-07-18 12:58:48,808 - INFO - Reversed string: 'a1b2c3c2b1a'
+2025-07-18 12:58:48,808 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,808 - INFO - 'A1b2c3c2b1a' is a palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: 'Was it a car or a cat I saw?'
+2025-07-18 12:58:48,808 - INFO - Original string length: 28
+2025-07-18 12:58:48,808 - INFO - Cleaned string: 'wasitacaroracatisaw' (length: 19)
+2025-07-18 12:58:48,808 - INFO - Reversed string: 'wasitacaroracatisaw'
+2025-07-18 12:58:48,808 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,808 - INFO - 'Was it a car or a cat I saw?' is a palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: 'This is not a palindrome'
+2025-07-18 12:58:48,808 - INFO - Original string length: 24
+2025-07-18 12:58:48,808 - INFO - Cleaned string: 'thisisnotapalindrome' (length: 20)
+2025-07-18 12:58:48,808 - INFO - Reversed string: 'emordnilapatonsisiht'
+2025-07-18 12:58:48,808 - INFO - Palindrome check result: False
+2025-07-18 12:58:48,808 - INFO - 'This is not a palindrome' is not a palindrome
+2025-07-18 12:58:48,808 - INFO - Starting palindrome check for: 'hello'
+2025-07-18 12:58:48,808 - INFO - Original string length: 5
+2025-07-18 12:58:48,821 - INFO - Cleaned string: 'hello' (length: 5)
+2025-07-18 12:58:48,821 - INFO - Reversed string: 'olleh'
+2025-07-18 12:58:48,821 - INFO - Palindrome check result: False
+2025-07-18 12:58:48,821 - INFO - 'hello' is not a palindrome
+2025-07-18 12:58:48,821 - INFO - Starting palindrome check for: 'world'
+2025-07-18 12:58:48,821 - INFO - Original string length: 5
+2025-07-18 12:58:48,821 - INFO - Cleaned string: 'world' (length: 5)
+2025-07-18 12:58:48,822 - INFO - Reversed string: 'dlrow'
+2025-07-18 12:58:48,822 - INFO - Palindrome check result: False
+2025-07-18 12:58:48,822 - INFO - 'world' is not a palindrome
+2025-07-18 12:58:48,822 - INFO - Starting palindrome check for: 'python'
+2025-07-18 12:58:48,822 - INFO - Original string length: 6
+2025-07-18 12:58:48,822 - INFO - Cleaned string: 'python' (length: 6)
+2025-07-18 12:58:48,822 - INFO - Reversed string: 'nohtyp'
+2025-07-18 12:58:48,823 - INFO - Palindrome check result: False
+2025-07-18 12:58:48,823 - INFO - 'python' is not a palindrome
+2025-07-18 12:58:48,825 - INFO - Starting palindrome check for: '12321'
+2025-07-18 12:58:48,825 - INFO - Original string length: 5
+2025-07-18 12:58:48,825 - INFO - Cleaned string: '12321' (length: 5)
+2025-07-18 12:58:48,825 - INFO - Reversed string: '12321'
+2025-07-18 12:58:48,826 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,826 - INFO - '12321' is a palindrome
+2025-07-18 12:58:48,826 - INFO - Starting palindrome check for: 'abc12321cba'
+2025-07-18 12:58:48,826 - INFO - Original string length: 11
+2025-07-18 12:58:48,826 - INFO - Cleaned string: 'abc12321cba' (length: 11)
+2025-07-18 12:58:48,826 - INFO - Reversed string: 'abc12321cba'
+2025-07-18 12:58:48,826 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,827 - INFO - 'abc12321cba' is a palindrome
+2025-07-18 12:58:48,827 - INFO - Starting palindrome check for: '12345'
+2025-07-18 12:58:48,827 - INFO - Original string length: 5
+2025-07-18 12:58:48,827 - INFO - Cleaned string: '12345' (length: 5)
+2025-07-18 12:58:48,828 - INFO - Reversed string: '54321'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: False
+2025-07-18 12:58:48,828 - INFO - '12345' is not a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'racecar'
+2025-07-18 12:58:48,828 - INFO - Original string length: 7
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'racecar'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'racecar' is a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'level'
+2025-07-18 12:58:48,828 - INFO - Original string length: 5
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'level' (length: 5)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'level'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'level' is a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'deed'
+2025-07-18 12:58:48,828 - INFO - Original string length: 4
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'deed' (length: 4)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'deed'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'deed' is a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'a'
+2025-07-18 12:58:48,828 - INFO - Original string length: 1
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'a' (length: 1)
+2025-07-18 12:58:48,828 - INFO - Single character or empty after cleaning - considered palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: '5'
+2025-07-18 12:58:48,828 - INFO - Original string length: 1
+2025-07-18 12:58:48,828 - INFO - Cleaned string: '5' (length: 1)
+2025-07-18 12:58:48,828 - INFO - Single character or empty after cleaning - considered palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: '!'
+2025-07-18 12:58:48,828 - INFO - Original string length: 1
+2025-07-18 12:58:48,828 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:58:48,828 - INFO - Single character or empty after cleaning - considered palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: '   '
+2025-07-18 12:58:48,828 - INFO - Original string length: 3
+2025-07-18 12:58:48,828 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:58:48,828 - INFO - Single character or empty after cleaning - considered palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: '	
+'
+2025-07-18 12:58:48,828 - INFO - Original string length: 2
+2025-07-18 12:58:48,828 - INFO - Cleaned string: '' (length: 0)
+2025-07-18 12:58:48,828 - INFO - Single character or empty after cleaning - considered palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'race, car!'
+2025-07-18 12:58:48,828 - INFO - Original string length: 10
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'racecar'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'race, car!' is a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'A man, a plan, a canal: Panama'
+2025-07-18 12:58:48,828 - INFO - Original string length: 30
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'amanaplanacanalpanama' (length: 21)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'amanaplanacanalpanama'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'A man, a plan, a canal: Panama' is a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'Madam, I'm Adam.'
+2025-07-18 12:58:48,828 - INFO - Original string length: 16
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'madamimadam' (length: 11)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'madamimadam'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'Madam, I'm Adam.' is a palindrome
+2025-07-18 12:58:48,828 - INFO - Starting palindrome check for: 'race car'
+2025-07-18 12:58:48,828 - INFO - Original string length: 8
+2025-07-18 12:58:48,828 - INFO - Cleaned string: 'racecar' (length: 7)
+2025-07-18 12:58:48,828 - INFO - Reversed string: 'racecar'
+2025-07-18 12:58:48,828 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,828 - INFO - 'race car' is a palindrome
+2025-07-18 12:58:48,838 - INFO - Starting palindrome check for: 'a man a plan a canal panama'
+2025-07-18 12:58:48,838 - INFO - Original string length: 27
+2025-07-18 12:58:48,838 - INFO - Cleaned string: 'amanaplanacanalpanama' (length: 21)
+2025-07-18 12:58:48,838 - INFO - Reversed string: 'amanaplanacanalpanama'
+2025-07-18 12:58:48,838 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,838 - INFO - 'a man a plan a canal panama' is a palindrome
+2025-07-18 12:58:48,839 - INFO - Starting palindrome check for: 'never odd or even'
+2025-07-18 12:58:48,839 - INFO - Original string length: 17
+2025-07-18 12:58:48,839 - INFO - Cleaned string: 'neveroddoreven' (length: 14)
+2025-07-18 12:58:48,839 - INFO - Reversed string: 'neveroddoreven'
+2025-07-18 12:58:48,839 - INFO - Palindrome check result: True
+2025-07-18 12:58:48,840 - INFO - 'never odd or even' is a palindrome
+2025-07-18 12:58:49,135 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,135 - INFO - Input validation passed - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,135 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,135 - INFO - Raw BMI calculation: 70 / 3.0625 = 22.857142857142858
+2025-07-18 12:58:49,135 - INFO - Rounded BMI: 22.86
+2025-07-18 12:58:49,135 - INFO - BMI calculation completed successfully: 22.86
+2025-07-18 12:58:49,135 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,151 - INFO - Request data: {'height': 1.75, 'weight': 70}
+2025-07-18 12:58:49,151 - INFO - Extracted values - Height: 1.75, Weight: 70
+2025-07-18 12:58:49,151 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,151 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,151 - INFO - Input validation passed - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,151 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,151 - INFO - Raw BMI calculation: 70 / 3.0625 = 22.857142857142858
+2025-07-18 12:58:49,151 - INFO - Rounded BMI: 22.86
+2025-07-18 12:58:49,151 - INFO - BMI calculation completed successfully: 22.86
+2025-07-18 12:58:49,151 - INFO - BMI calculation result: 22.86
+2025-07-18 12:58:49,151 - INFO - Preparing response: {'bmi': 22.86}
+2025-07-18 12:58:49,151 - INFO - Starting BMI calculation - Height: 1.7m, Weight: 50kg
+2025-07-18 12:58:49,151 - INFO - Input validation passed - Height: 1.7m, Weight: 50kg
+2025-07-18 12:58:49,151 - INFO - Height squared: 2.8899999999999997
+2025-07-18 12:58:49,151 - INFO - Raw BMI calculation: 50 / 2.8899999999999997 = 17.301038062283737
+2025-07-18 12:58:49,151 - INFO - Rounded BMI: 17.3
+2025-07-18 12:58:49,151 - INFO - BMI calculation completed successfully: 17.3
+2025-07-18 12:58:49,151 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,151 - INFO - Request data: {'height': 1.7, 'weight': 50}
+2025-07-18 12:58:49,154 - INFO - Extracted values - Height: 1.7, Weight: 50
+2025-07-18 12:58:49,154 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,154 - INFO - Starting BMI calculation - Height: 1.7m, Weight: 50kg
+2025-07-18 12:58:49,154 - INFO - Input validation passed - Height: 1.7m, Weight: 50kg
+2025-07-18 12:58:49,154 - INFO - Height squared: 2.8899999999999997
+2025-07-18 12:58:49,154 - INFO - Raw BMI calculation: 50 / 2.8899999999999997 = 17.301038062283737
+2025-07-18 12:58:49,155 - INFO - Rounded BMI: 17.3
+2025-07-18 12:58:49,155 - INFO - BMI calculation completed successfully: 17.3
+2025-07-18 12:58:49,155 - INFO - BMI calculation result: 17.3
+2025-07-18 12:58:49,155 - INFO - Preparing response: {'bmi': 17.3}
+2025-07-18 12:58:49,155 - INFO - Starting BMI calculation - Height: 1.65m, Weight: 85kg
+2025-07-18 12:58:49,156 - INFO - Input validation passed - Height: 1.65m, Weight: 85kg
+2025-07-18 12:58:49,156 - INFO - Height squared: 2.7224999999999997
+2025-07-18 12:58:49,156 - INFO - Raw BMI calculation: 85 / 2.7224999999999997 = 31.22130394857668
+2025-07-18 12:58:49,157 - INFO - Rounded BMI: 31.22
+2025-07-18 12:58:49,157 - INFO - BMI calculation completed successfully: 31.22
+2025-07-18 12:58:49,159 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,159 - INFO - Request data: {'height': 1.65, 'weight': 85}
+2025-07-18 12:58:49,160 - INFO - Extracted values - Height: 1.65, Weight: 85
+2025-07-18 12:58:49,160 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,160 - INFO - Starting BMI calculation - Height: 1.65m, Weight: 85kg
+2025-07-18 12:58:49,160 - INFO - Input validation passed - Height: 1.65m, Weight: 85kg
+2025-07-18 12:58:49,160 - INFO - Height squared: 2.7224999999999997
+2025-07-18 12:58:49,160 - INFO - Raw BMI calculation: 85 / 2.7224999999999997 = 31.22130394857668
+2025-07-18 12:58:49,160 - INFO - Rounded BMI: 31.22
+2025-07-18 12:58:49,160 - INFO - BMI calculation completed successfully: 31.22
+2025-07-18 12:58:49,161 - INFO - BMI calculation result: 31.22
+2025-07-18 12:58:49,161 - INFO - Preparing response: {'bmi': 31.22}
+2025-07-18 12:58:49,162 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,162 - INFO - Request data: {'height': 0, 'weight': 70}
+2025-07-18 12:58:49,162 - INFO - Extracted values - Height: 0, Weight: 70
+2025-07-18 12:58:49,162 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,162 - INFO - Starting BMI calculation - Height: 0m, Weight: 70kg
+2025-07-18 12:58:49,162 - INFO - Input validation passed - Height: 0m, Weight: 70kg
+2025-07-18 12:58:49,163 - INFO - Height squared: 0
+2025-07-18 12:58:49,163 - ERROR - Height squared is zero - cannot calculate BMI
+2025-07-18 12:58:49,163 - INFO - BMI calculation result: None
+2025-07-18 12:58:49,163 - INFO - Preparing response: {'bmi': None}
+2025-07-18 12:58:49,164 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,165 - INFO - Request data: {'height': 1.75, 'weight': 0}
+2025-07-18 12:58:49,165 - INFO - Extracted values - Height: 1.75, Weight: 0
+2025-07-18 12:58:49,165 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,165 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 0kg
+2025-07-18 12:58:49,165 - INFO - Input validation passed - Height: 1.75m, Weight: 0kg
+2025-07-18 12:58:49,165 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,165 - INFO - Raw BMI calculation: 0 / 3.0625 = 0.0
+2025-07-18 12:58:49,165 - INFO - Rounded BMI: 0.0
+2025-07-18 12:58:49,165 - INFO - BMI calculation completed successfully: 0.0
+2025-07-18 12:58:49,165 - INFO - BMI calculation result: 0.0
+2025-07-18 12:58:49,165 - INFO - Preparing response: {'bmi': 0.0}
+2025-07-18 12:58:49,165 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,165 - INFO - Request data: {'height': -1.75, 'weight': 70}
+2025-07-18 12:58:49,165 - INFO - Extracted values - Height: -1.75, Weight: 70
+2025-07-18 12:58:49,165 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,165 - INFO - Starting BMI calculation - Height: -1.75m, Weight: 70kg
+2025-07-18 12:58:49,165 - INFO - Input validation passed - Height: -1.75m, Weight: 70kg
+2025-07-18 12:58:49,165 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,165 - INFO - Raw BMI calculation: 70 / 3.0625 = 22.857142857142858
+2025-07-18 12:58:49,165 - INFO - Rounded BMI: 22.86
+2025-07-18 12:58:49,165 - INFO - BMI calculation completed successfully: 22.86
+2025-07-18 12:58:49,165 - INFO - BMI calculation result: 22.86
+2025-07-18 12:58:49,165 - INFO - Preparing response: {'bmi': 22.86}
+2025-07-18 12:58:49,165 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,165 - INFO - Request data: {'height': 1.75, 'weight': -70}
+2025-07-18 12:58:49,165 - INFO - Extracted values - Height: 1.75, Weight: -70
+2025-07-18 12:58:49,165 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,165 - INFO - Starting BMI calculation - Height: 1.75m, Weight: -70kg
+2025-07-18 12:58:49,165 - INFO - Input validation passed - Height: 1.75m, Weight: -70kg
+2025-07-18 12:58:49,165 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,165 - INFO - Raw BMI calculation: -70 / 3.0625 = -22.857142857142858
+2025-07-18 12:58:49,165 - INFO - Rounded BMI: -22.86
+2025-07-18 12:58:49,165 - INFO - BMI calculation completed successfully: -22.86
+2025-07-18 12:58:49,165 - INFO - BMI calculation result: -22.86
+2025-07-18 12:58:49,165 - INFO - Preparing response: {'bmi': -22.86}
+2025-07-18 12:58:49,165 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,165 - INFO - Request data: {}
+2025-07-18 12:58:49,165 - INFO - Extracted values - Height: None, Weight: None
+2025-07-18 12:58:49,171 - WARNING - Missing required data - Height: None, Weight: None
+2025-07-18 12:58:49,172 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,172 - INFO - Request data: {'height': 'invalid', 'weight': 'invalid'}
+2025-07-18 12:58:49,172 - INFO - Extracted values - Height: invalid, Weight: invalid
+2025-07-18 12:58:49,172 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,172 - INFO - Starting BMI calculation - Height: invalidm, Weight: invalidkg
+2025-07-18 12:58:49,172 - ERROR - Invalid input types - Height: <class 'str'>, Weight: <class 'str'>
+2025-07-18 12:58:49,172 - INFO - BMI calculation result: None
+2025-07-18 12:58:49,172 - INFO - Preparing response: {'bmi': None}
+2025-07-18 12:58:49,172 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,172 - INFO - Request data: {'height': 1.75}
+2025-07-18 12:58:49,172 - INFO - Extracted values - Height: 1.75, Weight: None
+2025-07-18 12:58:49,172 - WARNING - Missing required data - Height: 1.75, Weight: None
+2025-07-18 12:58:49,172 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,172 - ERROR - Error processing BMI request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-07-18 12:58:49,172 - INFO - Received BMI calculation request
+2025-07-18 12:58:49,172 - INFO - Request data: {'height': 1.75, 'weight': 70}
+2025-07-18 12:58:49,172 - INFO - Extracted values - Height: 1.75, Weight: 70
+2025-07-18 12:58:49,172 - INFO - Calling BMI calculation function
+2025-07-18 12:58:49,172 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,172 - INFO - Input validation passed - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,172 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,172 - INFO - Raw BMI calculation: 70 / 3.0625 = 22.857142857142858
+2025-07-18 12:58:49,172 - INFO - Rounded BMI: 22.86
+2025-07-18 12:58:49,172 - INFO - BMI calculation completed successfully: 22.86
+2025-07-18 12:58:49,172 - INFO - BMI calculation result: 22.86
+2025-07-18 12:58:49,172 - INFO - Preparing response: {'bmi': 22.86}
+2025-07-18 12:58:49,172 - WARNING - 405 error: GET http://localhost/bmi
+2025-07-18 12:58:49,172 - INFO - Starting BMI calculation - Height: 1.8m, Weight: 75.5kg
+2025-07-18 12:58:49,172 - INFO - Input validation passed - Height: 1.8m, Weight: 75.5kg
+2025-07-18 12:58:49,172 - INFO - Height squared: 3.24
+2025-07-18 12:58:49,172 - INFO - Raw BMI calculation: 75.5 / 3.24 = 23.30246913580247
+2025-07-18 12:58:49,172 - INFO - Rounded BMI: 23.3
+2025-07-18 12:58:49,172 - INFO - BMI calculation completed successfully: 23.3
+2025-07-18 12:58:49,172 - INFO - Starting BMI calculation - Height: -1.75m, Weight: 70kg
+2025-07-18 12:58:49,172 - INFO - Input validation passed - Height: -1.75m, Weight: 70kg
+2025-07-18 12:58:49,172 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,172 - INFO - Raw BMI calculation: 70 / 3.0625 = 22.857142857142858
+2025-07-18 12:58:49,172 - INFO - Rounded BMI: 22.86
+2025-07-18 12:58:49,172 - INFO - BMI calculation completed successfully: 22.86
+2025-07-18 12:58:49,172 - INFO - Starting BMI calculation - Height: 1.75m, Weight: -70kg
+2025-07-18 12:58:49,172 - INFO - Input validation passed - Height: 1.75m, Weight: -70kg
+2025-07-18 12:58:49,172 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,172 - INFO - Raw BMI calculation: -70 / 3.0625 = -22.857142857142858
+2025-07-18 12:58:49,172 - INFO - Rounded BMI: -22.86
+2025-07-18 12:58:49,172 - INFO - BMI calculation completed successfully: -22.86
+2025-07-18 12:58:49,188 - INFO - Starting BMI calculation - Height: Nonem, Weight: 70kg
+2025-07-18 12:58:49,188 - ERROR - Height or weight is None
+2025-07-18 12:58:49,188 - INFO - Starting BMI calculation - Height: 1.75m, Weight: Nonekg
+2025-07-18 12:58:49,188 - ERROR - Height or weight is None
+2025-07-18 12:58:49,189 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,189 - INFO - Input validation passed - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,189 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,189 - INFO - Raw BMI calculation: 70 / 3.0625 = 22.857142857142858
+2025-07-18 12:58:49,190 - INFO - Rounded BMI: 22.86
+2025-07-18 12:58:49,190 - INFO - BMI calculation completed successfully: 22.86
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 1.65m, Weight: 85kg
+2025-07-18 12:58:49,191 - INFO - Input validation passed - Height: 1.65m, Weight: 85kg
+2025-07-18 12:58:49,191 - INFO - Height squared: 2.7224999999999997
+2025-07-18 12:58:49,191 - INFO - Raw BMI calculation: 85 / 2.7224999999999997 = 31.22130394857668
+2025-07-18 12:58:49,191 - INFO - Rounded BMI: 31.22
+2025-07-18 12:58:49,191 - INFO - BMI calculation completed successfully: 31.22
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 70kg
+2025-07-18 12:58:49,191 - ERROR - Invalid input types - Height: <class 'str'>, Weight: <class 'str'>
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 1.7m, Weight: 50kg
+2025-07-18 12:58:49,191 - INFO - Input validation passed - Height: 1.7m, Weight: 50kg
+2025-07-18 12:58:49,191 - INFO - Height squared: 2.8899999999999997
+2025-07-18 12:58:49,191 - INFO - Raw BMI calculation: 50 / 2.8899999999999997 = 17.301038062283737
+2025-07-18 12:58:49,191 - INFO - Rounded BMI: 17.3
+2025-07-18 12:58:49,191 - INFO - BMI calculation completed successfully: 17.3
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 2.5m, Weight: 200kg
+2025-07-18 12:58:49,191 - INFO - Input validation passed - Height: 2.5m, Weight: 200kg
+2025-07-18 12:58:49,191 - INFO - Height squared: 6.25
+2025-07-18 12:58:49,191 - INFO - Raw BMI calculation: 200 / 6.25 = 32.0
+2025-07-18 12:58:49,191 - INFO - Rounded BMI: 32.0
+2025-07-18 12:58:49,191 - INFO - BMI calculation completed successfully: 32.0
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 0.1m, Weight: 0.5kg
+2025-07-18 12:58:49,191 - INFO - Input validation passed - Height: 0.1m, Weight: 0.5kg
+2025-07-18 12:58:49,191 - INFO - Height squared: 0.010000000000000002
+2025-07-18 12:58:49,191 - INFO - Raw BMI calculation: 0.5 / 0.010000000000000002 = 49.99999999999999
+2025-07-18 12:58:49,191 - INFO - Rounded BMI: 50.0
+2025-07-18 12:58:49,191 - INFO - BMI calculation completed successfully: 50.0
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 0m, Weight: 70kg
+2025-07-18 12:58:49,191 - INFO - Input validation passed - Height: 0m, Weight: 70kg
+2025-07-18 12:58:49,191 - INFO - Height squared: 0
+2025-07-18 12:58:49,191 - ERROR - Height squared is zero - cannot calculate BMI
+2025-07-18 12:58:49,191 - INFO - Starting BMI calculation - Height: 1.75m, Weight: 0kg
+2025-07-18 12:58:49,191 - INFO - Input validation passed - Height: 1.75m, Weight: 0kg
+2025-07-18 12:58:49,191 - INFO - Height squared: 3.0625
+2025-07-18 12:58:49,191 - INFO - Raw BMI calculation: 0 / 3.0625 = 0.0
+2025-07-18 12:58:49,191 - INFO - Rounded BMI: 0.0
+2025-07-18 12:58:49,191 - INFO - BMI calculation completed successfully: 0.0
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [-10, -5, -20, -1]
+2025-07-18 12:58:49,207 - INFO - List length: 4
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: -10
+2025-07-18 12:58:49,207 - INFO - Element -10 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: -5
+2025-07-18 12:58:49,207 - INFO - Element -5 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 2: -20
+2025-07-18 12:58:49,207 - INFO - Element -20 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 3: -1
+2025-07-18 12:58:49,207 - INFO - Element -1 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Final max_val: 0
+2025-07-18 12:58:49,207 - ERROR - BUG DETECTED: All numbers are negative [-10, -5, -20, -1], but returning 0
+2025-07-18 12:58:49,207 - ERROR - The function should return the largest negative number, not 0
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [5, 10, 5, 10, 3]
+2025-07-18 12:58:49,207 - INFO - List length: 5
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: 5
+2025-07-18 12:58:49,207 - INFO - Found new max: 5 > 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: 10
+2025-07-18 12:58:49,207 - INFO - Found new max: 10 > 5
+2025-07-18 12:58:49,207 - INFO - Checking element 2: 5
+2025-07-18 12:58:49,207 - INFO - Element 5 is not greater than current max 10
+2025-07-18 12:58:49,207 - INFO - Checking element 3: 10
+2025-07-18 12:58:49,207 - INFO - Element 10 is not greater than current max 10
+2025-07-18 12:58:49,207 - INFO - Checking element 4: 3
+2025-07-18 12:58:49,207 - INFO - Element 3 is not greater than current max 10
+2025-07-18 12:58:49,207 - INFO - Final max_val: 10
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: []
+2025-07-18 12:58:49,207 - WARNING - Empty list provided - returning 0 (this is a bug!)
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [1.5, 2.7, 0.5, 3.2]
+2025-07-18 12:58:49,207 - INFO - List length: 4
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: 1.5
+2025-07-18 12:58:49,207 - INFO - Found new max: 1.5 > 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: 2.7
+2025-07-18 12:58:49,207 - INFO - Found new max: 2.7 > 1.5
+2025-07-18 12:58:49,207 - INFO - Checking element 2: 0.5
+2025-07-18 12:58:49,207 - INFO - Element 0.5 is not greater than current max 2.7
+2025-07-18 12:58:49,207 - INFO - Checking element 3: 3.2
+2025-07-18 12:58:49,207 - INFO - Found new max: 3.2 > 2.7
+2025-07-18 12:58:49,207 - INFO - Final max_val: 3.2
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [1000000, 999999, 1000001]
+2025-07-18 12:58:49,207 - INFO - List length: 3
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: 1000000
+2025-07-18 12:58:49,207 - INFO - Found new max: 1000000 > 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: 999999
+2025-07-18 12:58:49,207 - INFO - Element 999999 is not greater than current max 1000000
+2025-07-18 12:58:49,207 - INFO - Checking element 2: 1000001
+2025-07-18 12:58:49,207 - INFO - Found new max: 1000001 > 1000000
+2025-07-18 12:58:49,207 - INFO - Final max_val: 1000001
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [-5, 10, -2, 8, -1]
+2025-07-18 12:58:49,207 - INFO - List length: 5
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: -5
+2025-07-18 12:58:49,207 - INFO - Element -5 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: 10
+2025-07-18 12:58:49,207 - INFO - Found new max: 10 > 0
+2025-07-18 12:58:49,207 - INFO - Checking element 2: -2
+2025-07-18 12:58:49,207 - INFO - Element -2 is not greater than current max 10
+2025-07-18 12:58:49,207 - INFO - Checking element 3: 8
+2025-07-18 12:58:49,207 - INFO - Element 8 is not greater than current max 10
+2025-07-18 12:58:49,207 - INFO - Checking element 4: -1
+2025-07-18 12:58:49,207 - INFO - Element -1 is not greater than current max 10
+2025-07-18 12:58:49,207 - INFO - Final max_val: 10
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [-5, -2, -10, -1]
+2025-07-18 12:58:49,207 - INFO - List length: 4
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: -5
+2025-07-18 12:58:49,207 - INFO - Element -5 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: -2
+2025-07-18 12:58:49,207 - INFO - Element -2 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 2: -10
+2025-07-18 12:58:49,207 - INFO - Element -10 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Checking element 3: -1
+2025-07-18 12:58:49,207 - INFO - Element -1 is not greater than current max 0
+2025-07-18 12:58:49,207 - INFO - Final max_val: 0
+2025-07-18 12:58:49,207 - ERROR - BUG DETECTED: All numbers are negative [-5, -2, -10, -1], but returning 0
+2025-07-18 12:58:49,207 - ERROR - The function should return the largest negative number, not 0
+2025-07-18 12:58:49,207 - INFO - Starting max calculation for list: [1, 5, 3, 9, 2]
+2025-07-18 12:58:49,207 - INFO - List length: 5
+2025-07-18 12:58:49,207 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,207 - INFO - Checking element 0: 1
+2025-07-18 12:58:49,207 - INFO - Found new max: 1 > 0
+2025-07-18 12:58:49,207 - INFO - Checking element 1: 5
+2025-07-18 12:58:49,221 - INFO - Found new max: 5 > 1
+2025-07-18 12:58:49,221 - INFO - Checking element 2: 3
+2025-07-18 12:58:49,221 - INFO - Element 3 is not greater than current max 5
+2025-07-18 12:58:49,222 - INFO - Checking element 3: 9
+2025-07-18 12:58:49,222 - INFO - Found new max: 9 > 5
+2025-07-18 12:58:49,222 - INFO - Checking element 4: 2
+2025-07-18 12:58:49,222 - INFO - Element 2 is not greater than current max 9
+2025-07-18 12:58:49,222 - INFO - Final max_val: 9
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: [42]
+2025-07-18 12:58:49,223 - INFO - List length: 1
+2025-07-18 12:58:49,223 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,223 - INFO - Checking element 0: 42
+2025-07-18 12:58:49,223 - INFO - Found new max: 42 > 0
+2025-07-18 12:58:49,223 - INFO - Final max_val: 42
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: [0.0001, 1e-05, 0.001]
+2025-07-18 12:58:49,223 - INFO - List length: 3
+2025-07-18 12:58:49,223 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,223 - INFO - Checking element 0: 0.0001
+2025-07-18 12:58:49,223 - INFO - Found new max: 0.0001 > 0
+2025-07-18 12:58:49,223 - INFO - Checking element 1: 1e-05
+2025-07-18 12:58:49,223 - INFO - Element 1e-05 is not greater than current max 0.0001
+2025-07-18 12:58:49,223 - INFO - Checking element 2: 0.001
+2025-07-18 12:58:49,223 - INFO - Found new max: 0.001 > 0.0001
+2025-07-18 12:58:49,223 - INFO - Final max_val: 0.001
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: [0, -5, 10, -2]
+2025-07-18 12:58:49,223 - INFO - List length: 4
+2025-07-18 12:58:49,223 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,223 - INFO - Checking element 0: 0
+2025-07-18 12:58:49,223 - INFO - Element 0 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 1: -5
+2025-07-18 12:58:49,223 - INFO - Element -5 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 2: 10
+2025-07-18 12:58:49,223 - INFO - Found new max: 10 > 0
+2025-07-18 12:58:49,223 - INFO - Checking element 3: -2
+2025-07-18 12:58:49,223 - INFO - Element -2 is not greater than current max 10
+2025-07-18 12:58:49,223 - INFO - Final max_val: 10
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: []
+2025-07-18 12:58:49,223 - WARNING - Empty list provided - returning 0 (this is a bug!)
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: [-5, -2, -10, -1]
+2025-07-18 12:58:49,223 - INFO - List length: 4
+2025-07-18 12:58:49,223 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,223 - INFO - Checking element 0: -5
+2025-07-18 12:58:49,223 - INFO - Element -5 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 1: -2
+2025-07-18 12:58:49,223 - INFO - Element -2 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 2: -10
+2025-07-18 12:58:49,223 - INFO - Element -10 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 3: -1
+2025-07-18 12:58:49,223 - INFO - Element -1 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Final max_val: 0
+2025-07-18 12:58:49,223 - ERROR - BUG DETECTED: All numbers are negative [-5, -2, -10, -1], but returning 0
+2025-07-18 12:58:49,223 - ERROR - The function should return the largest negative number, not 0
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: [-100, -50, -200]
+2025-07-18 12:58:49,223 - INFO - List length: 3
+2025-07-18 12:58:49,223 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,223 - INFO - Checking element 0: -100
+2025-07-18 12:58:49,223 - INFO - Element -100 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 1: -50
+2025-07-18 12:58:49,223 - INFO - Element -50 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 2: -200
+2025-07-18 12:58:49,223 - INFO - Element -200 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Final max_val: 0
+2025-07-18 12:58:49,223 - ERROR - BUG DETECTED: All numbers are negative [-100, -50, -200], but returning 0
+2025-07-18 12:58:49,223 - ERROR - The function should return the largest negative number, not 0
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: []
+2025-07-18 12:58:49,223 - WARNING - Empty list provided - returning 0 (this is a bug!)
+2025-07-18 12:58:49,223 - INFO - Starting max calculation for list: [-5, -2, -10, -1]
+2025-07-18 12:58:49,223 - INFO - List length: 4
+2025-07-18 12:58:49,223 - INFO - Initial max_val set to: 0 (BUG: should be first element)
+2025-07-18 12:58:49,223 - INFO - Checking element 0: -5
+2025-07-18 12:58:49,223 - INFO - Element -5 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 1: -2
+2025-07-18 12:58:49,223 - INFO - Element -2 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 2: -10
+2025-07-18 12:58:49,223 - INFO - Element -10 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Checking element 3: -1
+2025-07-18 12:58:49,223 - INFO - Element -1 is not greater than current max 0
+2025-07-18 12:58:49,223 - INFO - Final max_val: 0
+2025-07-18 12:58:49,223 - ERROR - BUG DETECTED: All numbers are negative [-5, -2, -10, -1], but returning 0
+2025-07-18 12:58:49,223 - ERROR - The function should return the largest negative number, not 0

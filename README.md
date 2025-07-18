@@ -165,6 +165,44 @@ Each session includes comprehensive unit tests:
 
 **Note**: Session 4 tests are designed to fail intentionally to help identify bugs for debugging practice.
 
+## 📝 Logging and Debugging
+
+### Logging Features
+Each session includes comprehensive logging to track intermediate steps:
+
+- **Session 1**: Logs discount calculation steps, input validation, and results
+- **Session 2**: Logs string cleaning, palindrome comparison, and decision points
+- **Session 3**: Logs BMI calculations, API requests, and error handling
+- **Session 4**: Logs max function execution and intentionally highlights bugs
+
+### Running Logging Demo
+To see logging in action across all sessions:
+```bash
+python demo_logging.py
+```
+
+### Log Files
+Log files are created in each session directory:
+- `Session_1_CoreUsage/discount_calculation.log`
+- `Session_2_Intermediate/palindrome_detection.log`
+- `Session_3_Advanced/bmi_calculation.log`
+- `Session_3_Advanced/flask_app.log`
+- `Session_4_Debugging/buggy_max.log`
+
+### Centralized Logging Configuration
+Use the `logging_config.py` utility for consistent logging setup:
+```python
+from logging_config import setup_logging, log_function
+
+logger = setup_logging('MySession')
+```
+
+### Logging Benefits
+- **Debugging**: Track execution flow and identify issues
+- **Learning**: Understand how algorithms work step-by-step
+- **Performance**: Monitor function execution times
+- **Error Tracking**: Detailed error context and stack traces
+
 ## 🎯 Learning Path
 
 1. **Start with Session 1** to understand basic AI prompting
